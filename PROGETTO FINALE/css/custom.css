@@ -1,734 +1,809 @@
 @font-face {
 
-   font-family: 'Amatic SC', cursive;
-  font-family: 'AmaticSC-Bold';
+    font-family: 'Amatic SC', cursive;
+    font-family: 'AmaticSC-Bold';
     src: url('../fonts/AmaticSC-Bold.woff')format('woff');
     src: url('../fonts/AmaticSC-Bold.woff2')format('woff');
 
-  font-style: normal;
+    font-style: normal;
 }
+
 /* .evidenzia{
   background-color: #b6ffb6;
 } */
-.aligned-right{
-  text-align: right;
+.aligned-right {
+    text-align: right;
 
 }
-.aligned-left{
-  text-align: left;
-  max-width: 400px;
+
+.aligned-left {
+    text-align: left;
+    max-width: 400px;
 }
-svg{
-  width: 100%;
+
+svg {
+    width: 100%;
 }
+
+.wave {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-  background-color: #D3E9F4;
+    background-color: #D3E9F4;
 
-  width: 100vw;
-  overflow-x: hidden;
-  margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
 }
+
 /* img #cubo resized{
   width: auto;
   height: 100px;
   overflow: hidden;
 } */
 #header {
-  height: 60vh;
-  /* height: 150%; */
-  display: flex;
-  align-items: center;
-  text-align: center;
-  background-image: url('../SVG/piatto2.svg');
-  /* background-size: 80vh; */
-  background-size: 55%;
-  width:auto;
-  background-repeat: no-repeat;
-  background-position: center;
+    height: 60vh;
+    /* height: 150%; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: url('../SVG/piatto2.svg');
+    /* background-size: 80vh; */
+    background-size: 55%;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-#header img{
-  width: 16%;
-  height: auto;
-  margin: auto;
-  position: relative;
-  left: -4%;
+
+#header img {
+    width: 16%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    left: -4%;
 
 }
 
 #titolo1 {
-  margin-top: .3%;
-  position: relative;
-  text-align: center;
-  /* font-family: 'IBM Plex Serif Semibold'; */
-  font-family: 'AmaticSC-Bold';
-  font-size: 100rem;
-  color: black;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, .1)
+    margin-top: .3%;
+    position: relative;
+    text-align: center;
+    /* font-family: 'IBM Plex Serif Semibold'; */
+    font-family: 'AmaticSC-Bold';
+    font-size: 100rem;
+    color: black;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, .1)
 }
-#titolo1 h1{
-  font-size:150px;
+
+#titolo1 h1 {
+    font-size: 150px;
 }
 
 
 #titolo2 {
-  position: relative;
-  text-align: center;
-  /* font-family: 'IBM Plex Serif Semibold'; */
-  font-family: 'AmaticSC-Bold';
-  font-size: 100rem;
-  color: black;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, .1)
-  margin-bottom: 10%;
+    position: relative;
+    text-align: center;
+    /* font-family: 'IBM Plex Serif Semibold'; */
+    font-family: 'AmaticSC-Bold';
+    font-size: 100rem;
+    color: black;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, .1) margin-bottom: 10%;
 }
-#titolo2 h1{
-  font-size:150px;
+
+#titolo2 h1 {
+    font-size: 150px;
 }
 
 #sottotitolo {
-  height: 100vh;
-  margin-top:50px;
-  font-size: 9rem;
-  position: relative;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  font-family: 'AmaticSC-Bold';
-  color: black;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, .1);
-  opacity:1;
+    height: 100vh;
+    margin-top: 50px;
+    font-size: 9rem;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: 'AmaticSC-Bold';
+    color: black;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, .1);
+    opacity: 1;
 }
-#sottotitolo h2{
-  font-size:150px;
+
+#sottotitolo h2 {
+    font-size: 150px;
 }
 
 #intro {
-  margin-top:60px;
-  height: auto;
-  display: flex;
-  align-items: center;
+    margin-top: 60px;
+    height: auto;
+    display: flex;
+    align-items: center;
 }
-h2{
-  font-size: 9rem;
+
+h2 {
+    font-size: 9rem;
 }
-h3{
-  font-family: 'AmaticSC-Bold';
-  font-size: 4rem;
-  font-weight:  bold;
+
+h3 {
+    font-family: 'AmaticSC-Bold';
+    font-size: 4rem;
+    font-weight: bold;
 }
 
 h5 {
-  position: relative;
-  text-align: left;
-  font-family: 'AmaticSC-Bold';
-  font-size: 35px;
-  font-weight: bold;
-  color: black;
-  margin-bottom: 0;
+    position: relative;
+    text-align: left;
+    font-family: 'AmaticSC-Bold';
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0;
 
 }
 
 p {
-  font-family: 'Helvetica', Arial, sans-serif;
-  font-size: 2rem;
-  color: black;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 2rem;
+    color: black;
 }
 
 
 #separatoreUno {
-  margin-top: 100px;
-  width: 100%;
-  align-items: center;
-  height: 80vh;
-  display: flex;
-  align-self: center;
-  text-align: center;
-  background-color: #1e5799;
+    margin-top: 100px;
+    width: 100%;
+    align-items: center;
+    height: 80vh;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    background-color: #1e5799;
 }
 
 .vetrini ul li {
-  list-style-type: none;
-  display: inline-block;
-  width: 19%;
+    list-style-type: none;
+    display: inline-block;
+    width: 19%;
 }
 
 .vetrini ul li .cerchio {
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, .1);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, .1);
 
-  display: flex;
-  align-items: center;
-  border-radius: 50%;
-  /*border: 2px solid black;*/
-  width: 14vw;
-  height: 14vw;
-  margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    /*border: 2px solid black;*/
+    width: 14vw;
+    height: 14vw;
+    margin: auto;
 
 }
 
 .vetrini ul li .cerchio img {
-  margin: auto;
-  width:auto;
-  height: auto;
+    margin: auto;
+    width: auto;
+    height: auto;
 
-  /* margin-left: 15px!important; */
+    /* margin-left: 15px!important; */
 }
+
 .vetrini ul li p {
-  margin: auto;
-  text-align: center;
-  font-size: 90%;
-  margin-top: 5%;
+    margin: auto;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 5%;
 
 }
+
 #separatoreDue {
-  max-width: 100%!important;
-  align-items: center;
-  height: 220px;
-  /* background-color: white; */
-}
-#separatoreDue li{
-  width: 100%!important;
+    max-width: 100% !important;
+    align-items: center;
+    height: 220px;
+    /* background-color: white; */
 }
 
-.vetrini #limiteDiVisibilita{
-   display: flex;
-  align-items: center;
-  height: 100px;
-  text-align: center;
-  margin-bottom: 40px;
+#separatoreDue li {
+    width: 100% !important;
 }
-.vetrini #limiteDiVisibilita span{
-  opacity: .1;
-  position:relative;
-  width:20%;
+
+.vetrini #limiteDiVisibilita {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 40px;
 }
-.vetrini #limiteDiVisibilita p{
-   font-family: 'AmaticSC-Bold';
-   font-size: 4rem;
-   font-weight: bold;
-  width: 100%;
-  text-align: center;
-  position: relative;
-  top: 8%;
+
+.vetrini #limiteDiVisibilita span {
+    opacity: .1;
+    position: relative;
+    width: 20%;
+}
+
+.vetrini #limiteDiVisibilita p {
+    font-family: 'AmaticSC-Bold';
+    font-size: 4rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 8%;
 }
 
 
 #separatoreDue li p {
-  /* margin: auto; */
-  text-align: center!important;
-  color: black!important;
+    /* margin: auto; */
+    text-align: center !important;
+    color: black !important;
 }
-.vetrini ul li .cerchio#limiteDiVisibilita p{
-  /* display: flex; */
-  text-align: center!important;
-  font-weight: bold;
+
+.vetrini ul li .cerchio#limiteDiVisibilita p {
+    /* display: flex; */
+    text-align: center !important;
+    font-weight: bold;
 }
 
 #separatoreUno #slogan {
-  padding: 80px;
-  text-align: center;
-  display: flex;
-  align-self: center;
-  margin: auto;
-  font-family: 'AmaticSC-Bold';
-  font-size: 2em;
-  color: white;
+    padding: 80px;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    margin: auto;
+    font-family: 'AmaticSC-Bold';
+    font-size: 2em;
+    color: white;
 }
 
 #titParteUno {
-  height: auto;
-  margin-top: 20px;
-  /* display: flex; */
-  align-items: center;
-  position: relative;
-  text-align: center;
-  font-family: ''AmaticSC-Bold';
-  font-size: 30px;
-  color: black;
+    height: auto;
+    margin-top: 20px;
+    /* display: flex; */
+    align-items: center;
+    position: relative;
+    text-align: center;
+    font-family: ''AmaticSC-Bold';
+font-size: 30px;
+    color: black;
 }
 
 #vetrinoUno {
-  height: auto;
-  margin-top: 20px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border-style: 20px solid black;
+    height: auto;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: 20px solid black;
 }
 
 #parteUno {
-  height: auto;
-  margin-top: 50px;
-  display: flex;
-  align-items: center;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
 }
 
 #titParteDue {
-  height: auto;
-  margin-top: 80px;
-  /* display: flex; */
-  align-items: center;
-  position: relative;
-  text-align: center;
-  font-family: 'AmaticSC-Bold';
-  font-size: 30px;
-  color: black;
+    height: auto;
+    margin-top: 80px;
+    /* display: flex; */
+    align-items: center;
+    position: relative;
+    text-align: center;
+    font-family: 'AmaticSC-Bold';
+    font-size: 30px;
+    color: black;
 }
 
 #parteDue {
-  height: auto;
-  margin-top: 40px;
-  /* display: flex; */
-  align-items: center;
+    height: auto;
+    margin-top: 40px;
+    /* display: flex; */
+    align-items: center;
 }
+
 #parteDue p {
-  margin-top: 40px;
-  /* display: flex; */
-  align-items: center;
+    margin-top: 40px;
+    /* display: flex; */
+    align-items: center;
 }
 
 #parteTre {
-  margin-top: 60px;
-  background-image: url('../images/ROSALBAGIUGNI.jpg');
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: left;
-  height: auto;
-  width: auto;
-  margin: auto;
-  display:flex;
-  align-items: center;
-  position: relative;
-  left:0;
-  opacity: 1;
+    margin-top: 60px;
+    background-image: url('../images/ROSALBAGIUGNI.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: auto;
+    width: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 0;
+    opacity: 1;
 }
 
 #dichiarazione {
-  display: flex;
-  width: auto;
-  margin-top: 30px;
-  padding: 50px;
-  float: right;
-  font-family: 'AmaticSC-Bold';
-  font-size: 1.25em;
-  font-weight: bold;
+    display: flex;
+    width: auto;
+    margin-top: 30px;
+    padding: 50px;
+    float: right;
+    font-family: 'AmaticSC-Bold';
+    font-size: 1.25em;
+    font-weight: bold;
 }
 
 /* ------------CATENA DEL LAVAGGIO-      PARTE QUATTRO----------------------- */
-#parteQuattro p{
+#parteQuattro p {
     font-family: 'AmaticSC-Bold';
     font-size: 3.1rem;
     line-height: 3.5rem;
 }
-#parteQuattro p #testoIn{
+
+#parteQuattro p #testoIn {
     font-family: 'AmaticSC-Bold';
     font-size: 3.1rem;
     line-height: 3.5rem;
     color: white;
 }
-#parteQuattro #scarico img{
-  position: relative;
-  left: -30px;
-}#parteQuattro #fogna img{
-  position: relative;
-  left: 90px;
-  z-index: -1;
+
+#parteQuattro #scarico img {
+    position: relative;
+    left: -30px;
 }
-#parteQuattro .row{
-  display: flex;
-  align-items: center;
+
+#parteQuattro #fogna img {
+    position: relative;
+    left: 90px;
+    z-index: -1;
 }
-.linea-verticale svg{
-  width:160px;
-  height: 150px;
+
+#parteQuattro .row {
+    display: flex;
+    align-items: center;
 }
+
+.linea-verticale svg {
+    width: 160px;
+    height: 150px;
+}
+
 #parteQuattro#catena {
 
-  z-index: 100;
-  /* width: 80%; */
-  position: relative;
-  margin-top: 50px;
-  opacity:1;
+    z-index: 100;
+    /* width: 80%; */
+    position: relative;
+    margin-top: 50px;
+    opacity: 1;
 }
-#mare {
-   top: -30px;
-  z-index: -10;
-  width: 100%;
-  position: relative;
-  /* margin-top: 50 px; */
-  opacity:1;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
 
-background:#7db9e8; /* Old browsers */
-background:-moz-linear-gradient(top,  #7db9e8 0%, #1e5799 100%); /* FF3.6-15 */
-background:-webkit-linear-gradient(top,  #7db9e8 0%,#1e5799 100%); /* Chrome10-25,Safari5.1-6 */
-background:linear-gradient(to bottom,  #7db9e8 0%,#1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-background-position-x:30%;
-margin-bottom: -30px;
-}
-#mare-svg{
-  position: relative;
-  top:-500px;
-  margin-top:-500px;
-}
 #mare {
-  padding-top: 100px;
+    top: -30px;
+    z-index: -10;
+    width: 100%;
+    position: relative;
+    /* margin-top: 50 px; */
+    opacity: 1;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
+
+    background: #7db9e8;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #7db9e8 0%, #1e5799 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-position-x: 30%;
+    margin-bottom: -30px;
 }
-#mare .row{
-  height: 33%;
+
+#mare-svg {
+    position: relative;
+    top: -500px;
+    margin-top: -500px;
+}
+
+#mare {
+    padding-top: 100px;
+}
+
+#mare .row {
+    height: 33%;
 
 }
-#mare .row p{
- font-family: 'AmaticSC-Bold';
+
+#mare .row p {
+    font-family: 'AmaticSC-Bold';
     font-size: 3.1rem;
     line-height: 3.5rem;
- max-width: 400px;
+    max-width: 400px;
 }
-#mare .row p #testoIn{
- font-family: 'AmaticSC-Bold';
+
+#mare .row p #testoIn {
+    font-family: 'AmaticSC-Bold';
     font-size: 3.1rem;
     line-height: 3.5rem;
- max-width: 400px;
- color:white;
+    max-width: 400px;
+    color: white;
 }
-#mare img{
-  margin: auto;
+
+#mare img {
+    margin: auto;
 }
-#mare .centered{
-  text-align: center;
+
+#mare .centered {
+    text-align: center;
 }
-#parteQuattro{
-  text-align: center;
+
+#parteQuattro {
+    text-align: center;
 }
-#parteQuattro .twelve{
-  height: 1800px;
+
+#parteQuattro .twelve {
+    height: 1800px;
 
 }
-#parteQuattro #pUno{
-  overflow: visible;
-  top:200px;
+
+#parteQuattro #pUno {
+    overflow: visible;
+    top: 200px;
 }
 
 
 #parteQuattro #contenitore-linea {
-  z-index: 1;
-  width: 5px;
-  margin: auto;
-  position: relative;
-  /* margin-top: 50px; */
-  opacity:1;
-  top: -1600px;
-  left: -140px;
-  transform: rotateZ(180deg);
+    z-index: 1;
+    width: 5px;
+    margin: auto;
+    position: relative;
+    /* margin-top: 50px; */
+    opacity: 1;
+    top: -1600px;
+    left: -140px;
+    transform: rotateZ(180deg);
 }
 
-#parteQuattro #lavaggioUno p{
-  margin-top: 300px;
-  margin-left: 600px;
-  /* display: flex; */
-  float: right;
-  position: absolute;
-  width: 300px;
-  height: 200px;
-  z-index: 1000;
-  /* display: flex; */
-  /* align-items: right; */
-  font-family: 'AmaticSC-Bold';
-  color: black;
+#parteQuattro #lavaggioUno p {
+    margin-top: 300px;
+    margin-left: 600px;
+    /* display: flex; */
+    float: right;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 1000;
+    /* display: flex; */
+    /* align-items: right; */
+    font-family: 'AmaticSC-Bold';
+    color: black;
 }
-#parteQuattro #lavaggioDue p{
-  margin-top: 750px;
-  margin-left: 600px;
-  float: right;
-  position: absolute;
-  width: 300px;
-  height: 200px;
-  z-index: 1000;
-  /* display: flex; */
-  /* align-items: right; */
-  font-family: 'AmaticSC-Bold';
-  color: black;
+
+#parteQuattro #lavaggioDue p {
+    margin-top: 750px;
+    margin-left: 600px;
+    float: right;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 1000;
+    /* display: flex; */
+    /* align-items: right; */
+    font-family: 'AmaticSC-Bold';
+    color: black;
 }
-#parteQuattro #lavaggioTre p #testoIn{
-  margin-top: 1150px;
-  margin-left: 150px;
-  float: right;
-  position: absolute;
-  width: 300px;
-  height: 200px;
-  z-index: 1000;
-  /* display: flex; */
-  /* align-items: right; */
-  font-family: 'AmaticSC-Bold';
-  color: white;
+
+#parteQuattro #lavaggioTre p #testoIn {
+    margin-top: 1150px;
+    margin-left: 150px;
+    float: right;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 1000;
+    /* display: flex; */
+    /* align-items: right; */
+    font-family: 'AmaticSC-Bold';
+    color: white;
 }
-#parteQuattro #lavaggioQuattro p{
-  margin-top: 1330px;
-  margin-left: 800px;
-  float: right;
-  position: absolute;
-  width: 300px;
-  height: 200px;
-  z-index: 1000;
-  /* display: flex; */
-  /* align-items: right; */
-  font-family: 'AmaticSC-Bold';
-  color: white;
+
+#parteQuattro #lavaggioQuattro p {
+    margin-top: 1330px;
+    margin-left: 800px;
+    float: right;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 1000;
+    /* display: flex; */
+    /* align-items: right; */
+    font-family: 'AmaticSC-Bold';
+    color: white;
 }
-#parteQuattro #lavaggioCinque p{
-  margin-top: 1500px;
-  margin-left: 150px;
-  float: right;
-  position: absolute;
-  width: 300px;
-  height: 200px;
-  z-index: 1000;
-  /* display: flex; */
-  /* align-items: right; */
-  font-family: 'AmaticSC-Bold';
-  color: white;
+
+#parteQuattro #lavaggioCinque p {
+    margin-top: 1500px;
+    margin-left: 150px;
+    float: right;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 1000;
+    /* display: flex; */
+    /* align-items: right; */
+    font-family: 'AmaticSC-Bold';
+    color: white;
 }
 
 /* -----------------------PARTE CINQUE------------- */
 #parteCinque {
-  margin-top: 50px;
-  /* margin-left: 10%; */
-  width: 100%;
-  align-items: center;
-  opacity:1;
+    margin-top: 50px;
+    /* margin-left: 10%; */
+    width: 100%;
+    align-items: center;
+    opacity: 1;
 }
-#parteCinque img{
-  width: 80%;
-  /* height: 300px; */
-  margin: auto;
-  margin-left: 5%;
-  position: relative;
-  /* align-items: center; */
-  /* left: -45px; */
+
+#parteCinque img {
+    width: 80%;
+    /* height: 300px; */
+    margin: auto;
+    margin-left: 5%;
+    position: relative;
+    /* align-items: center; */
+    /* left: -45px; */
 
 }
 
 /* ------------COSA POSSIAMO FARE------------------------ */
 #parteSei {
-  align-items: center;
-  margin-top: 100px;
-}
-#parteSei p{
-  /* margin-top: 100px; */
-  font-weight: bold;
-}
-.centered-box{
-  display: flex;
-  align-items: center;
-  min-height: 225px;
-}
-#parteSei #borseRiutilizzabili{
-  /* align-items: center; */
-  /* margin-top: 0; */
-  filter: blur(0);
-  /* opacity: 1; */
-}
-#parteSei #pUno{
-  /* align-items: center; */
-  /* margin-top: 180px; */
-  font-family: 'AmaticSC-Bold';
-  font-size: 3.1rem;
-  line-height: 3.5rem;
-  font-weight: bold;
-  /* filter: blur(0); */
-  opacity: 1;
-  position: relative;
-  /* left: 0px; */
-}
-#parteSei #contenitoriVetro{
-  /* align-items: center; */
-  /* margin-top: 50px; */
-  filter: blur(0);
-  /* opacity: 1; */
-}
-#parteSei #pDue{
-  align-items: center;
-  /* margin-top: 140px; */
-  /* text-align: justify; */
-  font-family: 'AmaticSC-Bold';
-  font-size: 3.1rem;
-  line-height: 3.5rem;
-  font-weight: bold;
-  /* filter: blur(0); */
-  opacity: 1;
-  position: relative;
-  /* right: 0px; */
-}
-#parteSei #contenitoriPlastica{
-  /* align-items: center; */
-  /* margin-top: 50px; */
-  filter: blur(0);
-  /* opacity: 1; */
+    align-items: center;
+    margin-top: 100px;
 }
 
-#parteSei #pTre{
-  /* margin-top: 140px; */
-  font-family: 'AmaticSC-Bold';
-  font-size: 3.1rem;
-  line-height: 3.5rem;
-  font-weight: bold;
-  /* filter: blur(0); */
-  opacity: 1;
-  position: relative;
-  /* margin: 0; */
-  /* left: 0px; */
+#parteSei p {
+    /* margin-top: 100px; */
+    font-weight: bold;
 }
-#parteSei #plasticaRiciclata{
-  /* align-items: center; */
-  /* margin-top: 50px; */
-  filter: blur(0);
-  /* opacity: 1; */
+
+.centered-box {
+    display: flex;
+    align-items: center;
+    min-height: 225px;
 }
-#parteSei #pQuattro{
-  /* margin-top: 140px; */
-  font-family: 'AmaticSC-Bold';
-  font-size: 3.1rem;
-  line-height: 3.5rem;
-  font-weight: bold;
-  opacity: 1;
-  position: relative;
-  /* right: 0px; */
+
+#parteSei #borseRiutilizzabili {
+    /* align-items: center; */
+    /* margin-top: 0; */
+    filter: blur(0);
+    /* opacity: 1; */
 }
-#parteSei #bottigliePlastica{
-  /* align-items: center; */
-  /* margin-top: 50px; */
-  filter: blur(0);
-  /* opacity: 1; */
+
+#parteSei #pUno {
+    /* align-items: center; */
+    /* margin-top: 180px; */
+    font-family: 'AmaticSC-Bold';
+    font-size: 3.1rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+    /* filter: blur(0); */
+    opacity: 1;
+    position: relative;
+    /* left: 0px; */
 }
-#parteSei #pCinque{
-  /* margin-top: 140px; */
-  font-family: 'AmaticSC-Bold';
-  font-size: 3.1rem;
-  line-height: 3.5rem;
-  font-weight: bold;
-  /* filter: blur(0); */
-  opacity: 1;
-  position: relative;
-  left: 0px;
+
+#parteSei #contenitoriVetro {
+    /* align-items: center; */
+    /* margin-top: 50px; */
+    filter: blur(0);
+    /* opacity: 1; */
 }
-#parteSei #scrabbing{
-  /* align-items: center; */
-  /* margin-top: 50px; */
-  filter: blur(0);
-  /* opacity: 1; */
+
+#parteSei #pDue {
+    align-items: center;
+    /* margin-top: 140px; */
+    /* text-align: justify; */
+    font-family: 'AmaticSC-Bold';
+    font-size: 3.1rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+    /* filter: blur(0); */
+    opacity: 1;
+    position: relative;
+    /* right: 0px; */
 }
-#parteSei #pSei{
-  /* margin-top: 140px; */
-  font-family: 'AmaticSC-Bold';
-  font-size: 3.1rem;
-  line-height: 3.5rem;
-  font-weight: bold;
-  /* filter: blur(0); */
-  opacity: 1;
-  position: relative;
-  /* right: 0px; */
+
+#parteSei #contenitoriPlastica {
+    /* align-items: center; */
+    /* margin-top: 50px; */
+    filter: blur(0);
+    /* opacity: 1; */
 }
-#parteSei #sacchetti{
-  /* align-items: center; */
-  /* margin-top: 50px; */
-  filter: blur(0);
-  /* opacity: 1; */
+
+#parteSei #pTre {
+    /* margin-top: 140px; */
+    font-family: 'AmaticSC-Bold';
+    font-size: 3.1rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+    /* filter: blur(0); */
+    opacity: 1;
+    position: relative;
+    /* margin: 0; */
+    /* left: 0px; */
 }
-#parteSei #pSette{
-  /* margin-top: 140px; */
-  font-family: 'AmaticSC-Bold';
-  font-size: 3.1rem;
-  line-height: 3.5rem;
-  font-weight: bold;
-  /* filter: blur(0); */
-  opacity: 1;
-  position: relative;
-  /* left: 0px; */
+
+#parteSei #plasticaRiciclata {
+    /* align-items: center; */
+    /* margin-top: 50px; */
+    filter: blur(0);
+    /* opacity: 1; */
 }
-#parteSei #coraBall{
-  /* align-items: center; */
-  /* margin-top: 50px; */
-  filter: blur(0);
-  /* opacity: 1; */
+
+#parteSei #pQuattro {
+    /* margin-top: 140px; */
+    font-family: 'AmaticSC-Bold';
+    font-size: 3.1rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+    opacity: 1;
+    position: relative;
+    /* right: 0px; */
 }
-#parteSei #pOtto{
-  /* margin-top: 140px; */
-  font-family: 'AmaticSC-Bold';
-  font-size: 3.1rem;
-  line-height: 3.5rem;
-  font-weight: bold;
-  /* filter: blur(0);*/
-  opacity: 1;
-  position: relative;
-  /* right: 0px; */
+
+#parteSei #bottigliePlastica {
+    /* align-items: center; */
+    /* margin-top: 50px; */
+    filter: blur(0);
+    /* opacity: 1; */
 }
-#parteSei #planetCare{
-  /* align-items: center; */
-  /* margin-top: 50px; */
-  filter: blur(0);
-  /* opacity: 1; */
+
+#parteSei #pCinque {
+    /* margin-top: 140px; */
+    font-family: 'AmaticSC-Bold';
+    font-size: 3.1rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+    /* filter: blur(0); */
+    opacity: 1;
+    position: relative;
+    left: 0px;
 }
-#parteSei #pNove{
-  /* margin-top: 140px; */
-  font-family: 'AmaticSC-Bold';
-  font-size: 3.1rem;
-  line-height: 3.5rem;
-  font-weight: bold;
-  /* filter: blur(0); */
-  opacity: 1;
-  position: relative;
-  /* left: 0px; */
+
+#parteSei #scrabbing {
+    /* align-items: center; */
+    /* margin-top: 50px; */
+    filter: blur(0);
+    /* opacity: 1; */
+}
+
+#parteSei #pSei {
+    /* margin-top: 140px; */
+    font-family: 'AmaticSC-Bold';
+    font-size: 3.1rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+    /* filter: blur(0); */
+    opacity: 1;
+    position: relative;
+    /* right: 0px; */
+}
+
+#parteSei #sacchetti {
+    /* align-items: center; */
+    /* margin-top: 50px; */
+    filter: blur(0);
+    /* opacity: 1; */
+}
+
+#parteSei #pSette {
+    /* margin-top: 140px; */
+    font-family: 'AmaticSC-Bold';
+    font-size: 3.1rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+    /* filter: blur(0); */
+    opacity: 1;
+    position: relative;
+    /* left: 0px; */
+}
+
+#parteSei #coraBall {
+    /* align-items: center; */
+    /* margin-top: 50px; */
+    filter: blur(0);
+    /* opacity: 1; */
+}
+
+#parteSei #pOtto {
+    /* margin-top: 140px; */
+    font-family: 'AmaticSC-Bold';
+    font-size: 3.1rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+    /* filter: blur(0);*/
+    opacity: 1;
+    position: relative;
+    /* right: 0px; */
+}
+
+#parteSei #planetCare {
+    /* align-items: center; */
+    /* margin-top: 50px; */
+    filter: blur(0);
+    /* opacity: 1; */
+}
+
+#parteSei #pNove {
+    /* margin-top: 140px; */
+    font-family: 'AmaticSC-Bold';
+    font-size: 3.1rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+    /* filter: blur(0); */
+    opacity: 1;
+    position: relative;
+    /* left: 0px; */
 }
 
 
 
 
 #separatoreQuattro {
-  margin-top: 120px;
-  width: 100%;
-  align-items: center;
-  height: 60%;
-  background-color: #555555;
+    margin-top: 120px;
+    width: 100%;
+    align-items: center;
+    height: 60%;
+    background-color: #555555;
 }
-#separatoreQuattro #slogan{
-  position: relative;
-  text-align: center;
-  padding: 2%;
-  font-family: 'AmaticSC-Bold';
-  font-size: 50px;
-  font-weight: bold;
-  color: white;
+
+#separatoreQuattro #slogan {
+    position: relative;
+    text-align: center;
+    padding: 2%;
+    font-family: 'AmaticSC-Bold';
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
 
 }
-#aiPolitici{
-  margin-left: 4%;
-  margin-top: 1%;
-  /* padding: 20px; */
-  text-align: left;
-  font-family: 'AmaticSC-Bold';
-  font-size: 1em;
-  color: white;
+
+#aiPolitici {
+    margin-left: 4%;
+    margin-top: 1%;
+    /* padding: 20px; */
+    text-align: left;
+    font-family: 'AmaticSC-Bold';
+    font-size: 1em;
+    color: white;
 }
-#greta{
-  text-align: right;
-  margin-right: 4%;
-  margin-bottom: 1%;
-  font-family: 'AmaticSC-Bold';
-  font-size: 1em;
-  color: white;
+
+#greta {
+    text-align: right;
+    margin-right: 4%;
+    margin-bottom: 1%;
+    font-family: 'AmaticSC-Bold';
+    font-size: 1em;
+    color: white;
 }
-a{
-  align-items: center;
-  text-align: center;
-  font-family: ''AmaticSC-Bold';
-  font-size: 1.2em;
-  color: black;
+
+a {
+    align-items: center;
+    text-align: center;
+    font-family: ''AmaticSC-Bold';
+font-size: 1.2em;
+    color: black;
 
 }
-#fonti{
-  margin-top: 80px;
-  font-size:  1.2rem;
+
+#fonti {
+    margin-top: 80px;
+    font-size: 1.2rem;
 }
-#footer{
-  margin-top: 40px;
-  color: black;
-  text-align: right;
+
+#footer {
+    margin-top: 40px;
+    color: black;
+    text-align: right;
 }
