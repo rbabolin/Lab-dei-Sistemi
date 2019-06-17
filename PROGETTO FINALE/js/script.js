@@ -52,7 +52,7 @@ $(document).ready(function(){
 //
 
       ////------------------------------------------
-      
+
 
     var tween = TweenMax.from("#sottotitolo", 1.5, {
             css: {
@@ -65,7 +65,7 @@ $(document).ready(function(){
             triggerElement: "#sottotitolo",
             // triggerOffset: 600,
             triggerHook: "onEnter",
-            duration: 2000
+            duration: 1200
           }).setTween(tween).addTo(controller);
 //--------FOTO DELLA ROSALBA GIUGNI
 
@@ -120,13 +120,13 @@ function pathPrepare($el) {
 }
     var $word = $("path#linea");
     pathPrepare($word);
-    
+
     //
     var tweenSvg = new TimelineMax().add(TweenMax.to("#linea-maglietta path#linea", 0.5, {
         strokeDashoffset: 0,
         ease: Linear.easeNone
       })) // draw word for 0.9
-     
+
     ///////////////////////////////////////////////
     //Assegna il tween-svg a scrollmagic
     new ScrollMagic.Scene({
@@ -144,7 +144,7 @@ function pathPrepare($el) {
         strokeDashoffset: 0,
         ease: Linear.easeNone
       })) // draw word for 0.9
-      
+
     ///////////////////////////////////////////////
     //Assegna il tween-svg a scrollmagic
     new ScrollMagic.Scene({
@@ -160,7 +160,7 @@ function pathPrepare($el) {
         strokeDashoffset: 0,
         ease: Linear.easeNone
       })) // draw word for 0.9
-      
+
     ///////////////////////////////////////////////
     //Assegna il tween-svg a scrollmagic
     new ScrollMagic.Scene({
@@ -174,7 +174,7 @@ function pathPrepare($el) {
         strokeDashoffset: 0,
         ease: Linear.easeNone
       })) // draw word for 0.9
-      
+
     ///////////////////////////////////////////////
     //Assegna il tween-svg a scrollmagic
     new ScrollMagic.Scene({
@@ -184,7 +184,7 @@ function pathPrepare($el) {
       triggerHook:"onEnter",
       tweenChanges: true
     }).setTween(tweenSvg).addTo(controller);
-    
+
 
 
 //----------------------------------------------------------------
@@ -197,10 +197,10 @@ function pathPrepare($el) {
        }
      });
      new ScrollMagic.Scene({
-       triggerElement: "#parteCinque",
+       triggerElement: "#slogan2",
        offset: -500,
        triggerHook: "onLeave",
-       duration: 800
+       duration: 1000
      }).setTween(tweenHand).addTo(controller);
 //------------------------------------------------------
 //---------TESTO BORSE RIUTILIZZABILI
@@ -210,7 +210,7 @@ function pathPrepare($el) {
        }
      });
      new ScrollMagic.Scene({
-       triggerElement: "#parteCinque",
+       triggerElement: "#slogan2",
        offset: -500,
        triggerHook: "onLeave",
        duration: 800
